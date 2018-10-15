@@ -1,0 +1,56 @@
+from selenium import webdriver
+import xhjx_cms_order
+import time
+import xhjx_order_wx_appium17
+from selenium.webdriver.support.ui import Select
+wmsgoodsname='测试'
+def login():
+
+    xhjx_cms_order.cmsdriver.get('http://qa.365bencao.cn/warehouse/sys/index')
+    el=xhjx_cms_order.cmsdriver.find_element_by_name('userName')
+    el.send_keys('tjl3')
+
+    el=xhjx_cms_order.cmsdriver.find_element_by_name('password')
+    el.send_keys('tujinliang')
+
+    el=xhjx_cms_order.cmsdriver.find_element_by_id('loginButton')
+    el.click()
+
+def check_stock():
+    try:
+        el=xhjx_cms_order.cmsdriver.switch_to.alert
+        el.accept()
+    except:
+        print('no alert found ')
+    el=xhjx_cms_order.cmsdriver.find_element_by_xpath('//*[@id="navbar_top"]/li[2]/a')
+    el.click()
+
+    #deal the alert
+    try:
+        el=xhjx_cms_order.cmsdriver.switch_to.alert
+        el.accept()
+    except:
+        print('no alert found ')
+    # xhjx_cms_order.cmsdriver.switch_to.alert.accept()
+
+    #goodsname
+    time.sleep(2)
+    el=xhjx_cms_order.cmsdriver.find_element_by_xpath('//*[@id="goodsListForm"]/div/div[1]/div/input')
+    print('wms goodsname:'+wmsgoodsname)
+    el.send_keys(wmsgoodsname)
+
+    s1=Select(xhjx_cms_order.cmsdriver.find_element_by_name('state'))
+    s1.select_by_index(1)
+
+    #get current stock
+    stock=int(xhjx_cms_order.cmsdriver.find_element_by_xpath('//*[@id="dataTable"]/tbody/tr/td[6]').text)
+    print(stock)
+
+
+
+    print('wms:111')
+
+if __name__=='__main__':
+    login()
+    check_stock()
+
