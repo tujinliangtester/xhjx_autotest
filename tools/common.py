@@ -104,7 +104,7 @@ def wx_pay():
     el = driver.find_element_by_id('com.tencent.mm:id/c7u')
     el.send_keys('236323')
 
-    time.sleep(0.5)
+    time.sleep(3)
     el=driver.find_element_by_id('com.tencent.mm:id/ejv')
     el.click()
 
