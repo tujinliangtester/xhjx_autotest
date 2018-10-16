@@ -160,9 +160,6 @@ def wms_rmb_outschool_delivery(orderNo):
     el.clear()
     el.send_keys('auto'+orderNo)
 
-
-
-
     time.sleep(0.5)
     el=cms_driver.find_element_by_id('addLogis')
     el.click()
