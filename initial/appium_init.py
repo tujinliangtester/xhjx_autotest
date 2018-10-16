@@ -3,9 +3,10 @@ import xhjx_globalset
 import xlrd
 import time
 from appium.webdriver.common.touch_action import TouchAction
+from tools import common
 
 
-wb=xlrd.open_workbook('D:\\PycharmProjects\\appiumtest\\testdata\\init.xlsx')
+wb=xlrd.open_workbook('..\\testdata\\init.xlsx')
 sh=wb.sheet_by_name('appium')
 desired_caps = {}
 i=0
@@ -33,23 +34,37 @@ print(desired_caps)
 driver=webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 driver.implicitly_wait(30)
 
+if(desired_caps['deviceName']=='7N2XEE1588055873'):
+    # into gzh
+    dx=320/720
+    dy=200/1280
+    common.click_native(dx,dy)
 
-#into gzh
-time.sleep(1)
-print('finding azl ')
-el=driver.find_elements_by_id('com.tencent.mm:id/azl')
-el[0].click()
+    dx=410/720
+    dy=1230/1280
+    common.click_native(dx,dy)
 
-el=driver.find_elements_by_id('com.tencent.mm:id/aiu')
-el[1].click()
+    time.sleep(3)
+    print(driver.contexts)
 
-time.sleep(3)
-print(driver.contexts)
+    driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
+    print(driver.current_context)
+else:
+    # into gzh
+    time.sleep(1)
+    print('finding azl ')
+    el = driver.find_elements_by_id('com.tencent.mm:id/azl')
+    el[0].click()
 
-driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
-print(driver.current_context)
-# driver.switch_to.context('CHROMIUM')
-# driver.get('http://qaservice.365bencao.cn/home')
+    el = driver.find_elements_by_id('com.tencent.mm:id/aiu')
+    el[1].click()
+
+    time.sleep(3)
+    print(driver.contexts)
+
+    driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
+    print(driver.current_context)
+
 
 
 if __name__=='__main__':
