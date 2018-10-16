@@ -34,15 +34,29 @@ print(desired_caps)
 driver=webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 driver.implicitly_wait(30)
 
+def click_native(dx,dy):
+    time.sleep(5)
+    driver.switch_to.context('NATIVE_APP')
+    print('switch to native')
+    print(driver.current_context)
+    x = driver.get_window_size()['width'] * dx
+    y = driver.get_window_size()['height'] * dy
+
+    actions = TouchAction(driver)
+    actions.tap(x=x, y=y)
+    actions.perform()
+
+    time.sleep(3)
+
 if(desired_caps['deviceName']=='7N2XEE1588055873'):
     # into gzh
     dx=320/720
     dy=200/1280
-    common.click_native(dx,dy)
+    click_native(dx,dy)
 
     dx=410/720
     dy=1230/1280
-    common.click_native(dx,dy)
+    click_native(dx,dy)
 
     time.sleep(3)
     print(driver.contexts)
