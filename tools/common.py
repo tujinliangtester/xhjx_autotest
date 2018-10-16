@@ -1,8 +1,9 @@
-from initial import appium_init,selenium_init
+# from initial import appium_init
+from initial import selenium_init
 from selenium.webdriver.common.keys import Keys
 from appium.webdriver.common.touch_action import TouchAction
 
-driver = appium_init.driver
+# driver = appium_init.driver
 cms_driver=selenium_init.driver
 import time
 
@@ -75,7 +76,7 @@ def into_goods_detail_by_homeserch(goods):
     # first goods
     time.sleep(1)
     js='.goodsItem'
-    el=find_element_by_js_querySelector(js)[1]
+    el=find_element_by_js_querySelector(js,1)
     el.click()
 
 
@@ -122,6 +123,7 @@ def wms_goods_stock(goodsName):
     el=cms_driver.find_element_by_xpath('//*[@id="sidebar_menu"]/li[2]/a/span')
     el.click()
 
+    time.sleep(0.5)
     el=cms_driver.find_element_by_name('goodsName')
     el.clear()
     el.send_keys(goodsName)
@@ -138,9 +140,11 @@ def wms_rmb_outschool_delivery(orderNo):
     el=cms_driver.find_element_by_xpath('//*[@id="sidebar_menu"]/li[3]/a/span[1]')
     el.click()
 
+    time.sleep(1)
     el=cms_driver.find_element_by_xpath('//*[@id="sidebar_menu"]/li[3]/ul/li[2]/a/span')
     el.click()
 
+    time.sleep(0.5)
     el=cms_driver.find_element_by_name('combinOrderNo')
     el.clear()
     el.send_keys(orderNo)
@@ -153,12 +157,16 @@ def wms_rmb_outschool_delivery(orderNo):
     time.sleep(0.5)
     # TODO
     # 由于元素遮罩，无法直接通过键盘、鼠标进行操作。
-    js = 'document.getElementsByName("logisNo")[0].style.overflow="visible"'
-    driver.execute_script(js)
+    # js = 'document.getElementsByName("logisNo")[0].style.overflow="visible"'
+    # driver.execute_script(js)
 
     el=cms_driver.find_element_by_name('logisNo')
+    cms_driver.execute_script("arguments[0].scrollIntoView(true);", el)
+    el.click()
     el.clear()
     el.send_keys('auto'+orderNo)
+
+
 
 
     time.sleep(0.5)
