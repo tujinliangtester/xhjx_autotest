@@ -1,5 +1,7 @@
 from initial import appium_init,selenium_init
 from selenium.webdriver.common.keys import Keys
+from appium.webdriver.common.touch_action import TouchAction
+
 driver = appium_init.driver
 cms_driver=selenium_init.driver
 import time
@@ -155,3 +157,18 @@ def wms_rmb_outschool_delivery(orderNo):
 
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
     el.click()
+def click_native(dx,dy):
+    time.sleep(0.5)
+    driver.switch_to.context('NATIVE_APP')
+    print('switch to native')
+    print(driver.current_context)
+    x = driver.get_window_size()['width'] * dx
+    y = driver.get_window_size()['height'] * dy
+
+    actions = TouchAction(driver)
+    actions.tap(x=x, y=y)
+    actions.perform()
+
+    driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
+    print('switch to web')
+    print(driver.current_context)
