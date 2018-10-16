@@ -2,6 +2,7 @@ from selenium import  webdriver
 import time
 driver=webdriver.Firefox()
 driver.implicitly_wait(30)
+driver.maximize_window()
 def cms():
     driver.get('http://qa.365bencao.cn/malls/sys/index#')
     el = driver.find_element_by_name('userName')

@@ -74,7 +74,8 @@ def into_goods_detail_by_homeserch(goods):
 
     # first goods
     time.sleep(1)
-    el = driver.find_element_by_xpath('//*[@id="goodspullrefresh"]/div[2]/div/div/div[2]/div')
+    js='.goodsItem'
+    el=find_element_by_js_querySelector(js)[1]
     el.click()
 
 
@@ -145,16 +146,26 @@ def wms_rmb_outschool_delivery(orderNo):
     el.send_keys(orderNo)
     el.send_keys(Keys.ENTER)
 
+    time.sleep(0.5)
     el=cms_driver.find_element_by_xpath('//*[@id="rmbOrderOutsideBaseInfoDataTable"]/tbody/tr/td[19]/button[2]')
     el.click()
+
+    time.sleep(0.5)
+    # TODO
+    # 由于元素遮罩，无法直接通过键盘、鼠标进行操作。
+    js = 'document.getElementsByName("logisNo")[0].style.overflow="visible"'
+    driver.execute_script(js)
 
     el=cms_driver.find_element_by_name('logisNo')
     el.clear()
     el.send_keys('auto'+orderNo)
 
+
+    time.sleep(0.5)
     el=cms_driver.find_element_by_id('addLogis')
     el.click()
 
+    time.sleep(0.5)
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
     el.click()
 def click_native(dx,dy):
@@ -173,3 +184,9 @@ def click_native(dx,dy):
     print('switch to web')
     print(driver.current_context)
     time.sleep(3)
+def find_element_by_js_querySelector(js,i):
+    #参数为css选择器字符串
+    time.sleep(0.5)
+    js='return document.querySelectorAll("'+js+'")'
+    print(js)
+    return driver.execute_script(js)[i]

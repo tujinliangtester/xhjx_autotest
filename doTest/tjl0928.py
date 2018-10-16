@@ -1,6 +1,7 @@
-import unittest
+import unittest,time
 from cms import goods
 from order import  xhjx_order
+from initial import appium_init,selenium_init
 
 if __name__=='__main__':
     print("目前在执行之前需要进行手动操作的有：\n"+
@@ -14,7 +15,16 @@ if __name__=='__main__':
     # suite.addTest(cmsGoods('testCheckGoods'))
     suite.addTest(order('testOrderGoodsdetail'))
     runner = unittest.TextTestRunner()
-    runner.run(suite)
+    try:
+        runner.run(suite)
+    except Exception:
+        print(Exception)
+
+    s = time.strftime('%m-%d-%H:%M', time.localtime())
+    appium_init.driver.save_screenshot(s + 'app.png')
+    selenium_init.driver.save_screenshot(s + 'sel.png')
+    print('save_screenshot')
+
 
 
 

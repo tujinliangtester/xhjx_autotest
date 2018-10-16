@@ -2,6 +2,7 @@ from initial import appium_init
 import time
 from selenium.webdriver.support.select import Select
 from tools import common
+from appium.webdriver.common.touch_action import TouchAction
 
 
 driver=appium_init.driver
@@ -17,6 +18,8 @@ dy=600/1920
 common.click_native(dx=dx,dy=dy)
 
 
-el=driver.find_element_by_xpath('//p[contains(@text, "订单号码")]')
-print('............................')
-print(el.text)
+js="return document.querySelector('.order-info p').innerText"
+s=driver.execute_script(js)
+print(s)
+s=s[5:]
+print(s)

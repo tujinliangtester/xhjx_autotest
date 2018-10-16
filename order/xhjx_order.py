@@ -55,12 +55,25 @@ class order(unittest.TestCase):
         el.clear()
         el.send_keys()
         '''
-        time.sleep(1)
+        # 选择校外收货地址
+        time.sleep(0.5)
+        el=driver.find_element_by_class_name('weui-cell__bd')
+        el.click()
+
+        js='.address-list-item'
+        el=common.find_element_by_js_querySelector(js,0)
+        el.click()
+
+        js='.dialog-last'
+        el=common.find_element_by_js_querySelector(js,0)
+        el.click()
+
+        time.sleep(0.5)
         # el = driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="提交订单"]')
         el=driver.find_element_by_xpath('//*[@id="app"]/div/div/div/footer/div[2]/button')
         el.click()
 
-        time.sleep(0.5)
+        time.sleep(10)#enough time to wait for synchronous stock
         afterGoodStock=common.wms_goods_stock(self.goodsName)
         print(beforeGoodStock)
         print(afterGoodStock)
@@ -89,12 +102,13 @@ class order(unittest.TestCase):
         dy = 600 / 1920
         common.click_native(dx=dx, dy=dy)
 
-        el0=driver.find_element_by_class_name('order-info')
-        el=el0.find_element_by_xpath('.//p[0]')
-        print('............................')
-        print(el.text)
+        js = "return document.querySelector('.order-info p').innerText"
+        s = driver.execute_script(js)
+        print(s)
+        s=s[5:]
+        print(s)
 
-        common.wms_rmb_outschool_delivery()
+        common.wms_rmb_outschool_delivery(s)
 
 goodsName=''
 def commit_order_goodsdetail(num):
