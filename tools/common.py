@@ -60,13 +60,11 @@ def home_serch_goods(goods):
 
 
 def into_goods_detail_by_homeserch(goods):
+    # TODO
     time.sleep(1)
-    el=driver.find_element_by_class_name('serBox')
-    el.click()
-
-    time.sleep(1)
-    el = driver.find_element_by_id('ipt-search')
-    el.send_keys(goods)
+    dx=427/720
+    dy=218/1280
+    click_native(dx,dy)
 
     el = driver.find_element_by_id('btn-search')
     el.click()

@@ -59,6 +59,8 @@ if(desired_caps['deviceName']=='7N2XEE1588055873'):
 
     time.sleep(3)
     print(driver.contexts)
+    # time.sleep(20)
+    # driver.get('http://qaservice.365bencao.cn/home')
 
     driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
     print(driver.current_context)
