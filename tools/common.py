@@ -1,9 +1,9 @@
-# from initial import appium_init
+from initial import appium_init
 from initial import selenium_init
 from selenium.webdriver.common.keys import Keys
 from appium.webdriver.common.touch_action import TouchAction
 
-# driver = appium_init.driver
+driver = appium_init.driver
 cms_driver=selenium_init.driver
 import time
 
@@ -155,13 +155,7 @@ def wms_rmb_outschool_delivery(orderNo):
     el.click()
 
     time.sleep(0.5)
-    # TODO
-    # 由于元素遮罩，无法直接通过键盘、鼠标进行操作。
-    # js = 'document.getElementsByName("logisNo")[0].style.overflow="visible"'
-    # driver.execute_script(js)
-
-    el=cms_driver.find_element_by_name('logisNo')
-    cms_driver.execute_script("arguments[0].scrollIntoView(true);", el)
+    el=cms_driver.find_elements_by_name('logisNo')[1]
     el.click()
     el.clear()
     el.send_keys('auto'+orderNo)
