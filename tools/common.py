@@ -158,7 +158,7 @@ def wms_rmb_outschool_delivery(orderNo):
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
     el.click()
 def click_native(dx,dy):
-    time.sleep(0.5)
+    time.sleep(5)
     driver.switch_to.context('NATIVE_APP')
     print('switch to native')
     print(driver.current_context)
@@ -172,3 +172,4 @@ def click_native(dx,dy):
     driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
     print('switch to web')
     print(driver.current_context)
+    time.sleep(3)

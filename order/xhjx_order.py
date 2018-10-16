@@ -84,17 +84,15 @@ class order(unittest.TestCase):
         except:
             print("金币提示框 not found")
 
-        time.sleep(0.5)
-        els=driver.find_elements_by_class_name('list_content')
-        print(els[0])
-        els[0].click()
-        # el=driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[1]/div/div/div/div[2]/div')
-        # el.click()
+        #点击屏幕进入订单详情
+        dx = 460 / 1080
+        dy = 600 / 1920
+        common.click_native(dx=dx, dy=dy)
 
-        el=driver.find_element_by_class_name('order-info')
+        el0=driver.find_element_by_class_name('order-info')
+        el=el0.find_element_by_xpath('.//p[0]')
         print('............................')
         print(el.text)
-
 
         common.wms_rmb_outschool_delivery()
 

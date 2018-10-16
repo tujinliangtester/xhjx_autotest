@@ -17,6 +17,6 @@ dy=600/1920
 common.click_native(dx=dx,dy=dy)
 
 
-el=driver.find_element_by_class_name('order-info')
+el=driver.find_element_by_xpath('//p[contains(@text, "订单号码")]')
 print('............................')
 print(el.text)
