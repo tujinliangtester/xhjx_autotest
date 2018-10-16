@@ -7,7 +7,28 @@ driver = appium_init.driver
 cms_driver=selenium_init.driver
 import time
 
+def click_native(dx,dy):
+    time.sleep(5)
+    driver.switch_to.context('NATIVE_APP')
+    print('switch to native')
+    print(driver.current_context)
+    x = driver.get_window_size()['width'] * dx
+    y = driver.get_window_size()['height'] * dy
 
+    actions = TouchAction(driver)
+    actions.tap(x=x, y=y)
+    actions.perform()
+
+    driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
+    print('switch to web')
+    print(driver.current_context)
+    time.sleep(3)
+def find_element_by_js_querySelector(js,i):
+    #参数为css选择器字符串
+    time.sleep(0.5)
+    js='return document.querySelectorAll("'+js+'")'
+    print(js)
+    return driver.execute_script(js)[i]
 def chang_wd(wdnm):
     driver.get('http://qaservice.365bencao.cn/lead?valid=true')
 
@@ -40,31 +61,8 @@ def home_serch_goods(goods):
 
 def into_goods_detail_by_homeserch(goods):
     time.sleep(1)
-    #循环查找元素。。。
-    i = 0
-    while i < 3:
-        i += 1
-        print(i)
-        try:
-            # el = driver.find_element_by_class_name('serBox ')
-            el = driver.find_element_by_xpath('//*[@id="app"]/div/header/div/div/div[2]/i')
-            el.click()
-            break
-        except Exception as e:
-            print(e)
-        try:
-            el = driver.find_element_by_class_name('serBox ')
-            # el=driver.find_element_by_xpath('//*[@id="app"]/div/header/div/div/div[2]/i')
-            el.click()
-            break
-        except Exception as e:
-            print(e)
-        try:
-            el =driver.find_element_by_tag_name('i')
-            el.click()
-            break
-        except Exception as e:
-            print(e)
+    el=driver.find_element_by_class_name('serBox')
+    el.click()
 
     time.sleep(1)
     el = driver.find_element_by_id('ipt-search')
@@ -167,25 +165,4 @@ def wms_rmb_outschool_delivery(orderNo):
     time.sleep(0.5)
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
     el.click()
-def click_native(dx,dy):
-    time.sleep(5)
-    driver.switch_to.context('NATIVE_APP')
-    print('switch to native')
-    print(driver.current_context)
-    x = driver.get_window_size()['width'] * dx
-    y = driver.get_window_size()['height'] * dy
 
-    actions = TouchAction(driver)
-    actions.tap(x=x, y=y)
-    actions.perform()
-
-    driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
-    print('switch to web')
-    print(driver.current_context)
-    time.sleep(3)
-def find_element_by_js_querySelector(js,i):
-    #参数为css选择器字符串
-    time.sleep(0.5)
-    js='return document.querySelectorAll("'+js+'")'
-    print(js)
-    return driver.execute_script(js)[i]

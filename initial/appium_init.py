@@ -3,7 +3,6 @@ import xhjx_globalset
 import xlrd
 import time
 from appium.webdriver.common.touch_action import TouchAction
-from tools import common
 
 
 wb=xlrd.open_workbook('..\\testdata\\init.xlsx')
@@ -35,7 +34,7 @@ driver=webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 driver.implicitly_wait(30)
 
 def click_native(dx,dy):
-    time.sleep(5)
+    time.sleep(30)
     driver.switch_to.context('NATIVE_APP')
     print('switch to native')
     print(driver.current_context)
