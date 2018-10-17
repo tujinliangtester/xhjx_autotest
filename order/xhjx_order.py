@@ -10,16 +10,10 @@ class order(unittest.TestCase):
     def setUp(self):
         print('order setup')
     def tearDown(self):
-        # s = time.strftime('%m-%d-%H:%M', time.localtime())
-        # s=s + 'app.png'
-        appium_init.driver.get_screenshot_as_png()
-        # s = time.strftime('%m-%d-%H:%M', time.localtime())
-        # s=s + 'sel.png'
-        selenium_init.driver.get_screenshot_as_png()
-        print('save_screenshot')
         print('order tearDown')
 
     def testOrderGoodsdetail(self):
+        driver.get(appium_init.qaurl)
         beforeGoodStock=common.wms_goods_stock(self.goodsName)
 
         common.into_goods_detail_by_homeserch(self.goodsName)
@@ -119,6 +113,7 @@ class order(unittest.TestCase):
         common.wms_rmb_outschool_confirmReceipt(orderno)
         driver.get(appium_init.qaurl)
     def testOrderGoodsdetail2Pay(self):
+        driver.get(appium_init.qaurl)
         beforeGoodStock = common.wms_goods_stock(self.goodsName)
 
         common.into_goods_detail_by_homeserch(self.goodsName)
@@ -245,6 +240,7 @@ class order(unittest.TestCase):
         assert el.text == '交易完成'
         driver.get(appium_init.qaurl)
     def testOrderGoodsdetail2PayAutoReceipt(self):
+        driver.get(appium_init.qaurl)
         beforeGoodStock = common.wms_goods_stock(self.goodsName)
 
         common.into_goods_detail_by_homeserch(self.goodsName)
@@ -375,6 +371,7 @@ class order(unittest.TestCase):
         assert el.text == '交易完成'
         driver.get(appium_init.qaurl)
     def testOrderGoodsdetail2PayCansel(self):
+        driver.get(appium_init.qaurl)
         beforeGoodStock = common.wms_goods_stock(self.goodsName)
 
         common.into_goods_detail_by_homeserch(self.goodsName)
@@ -455,7 +452,9 @@ class order(unittest.TestCase):
 
         el = driver.find_element_by_class_name('show-status')
         assert el.text == '交易关闭 (买家取消)'
+        driver.get(appium_init.qaurl)
     def testOrderGoodsdetail2TimeOutCansel(self):
+        driver.get(appium_init.qaurl)
         beforeGoodStock = common.wms_goods_stock(self.goodsName)
 
         common.into_goods_detail_by_homeserch(self.goodsName)
@@ -524,7 +523,7 @@ class order(unittest.TestCase):
 
         el = driver.find_element_by_class_name('show-status')
         assert el.text == '交易关闭 (支付超时)'
-
+        driver.get(appium_init.qaurl)
 
 if __name__=='__main__':
     print(1)

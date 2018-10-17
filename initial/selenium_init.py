@@ -5,7 +5,9 @@ driver.implicitly_wait(30)
 driver.maximize_window()
 # driver.minimize_window()
 def cms():
+    time.sleep(0.5)
     driver.get('http://qa.365bencao.cn/malls/sys/index#')
+    time.sleep(1)
     el = driver.find_element_by_name('userName')
     el.clear()
     el.send_keys('tujinliang')
@@ -20,7 +22,7 @@ def cms():
 def wms():
     time.sleep(0.5)
     driver.get('http://qa.365bencao.cn/warehouse/sys/login#')
-    time.sleep(0.5)
+    time.sleep(1)
     el = driver.find_element_by_name('userName')
     el.clear()
     el.send_keys('tjl041602')
