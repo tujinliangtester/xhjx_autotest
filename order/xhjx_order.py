@@ -1,7 +1,7 @@
 
 from initial import appium_init,selenium_init
 import unittest,time
-from tools import common,vc_tools
+from tools import common,vc_tools,otherTool
 driver = appium_init.driver
 class order(unittest.TestCase):
     driver = appium_init.driver
@@ -362,7 +362,7 @@ class order(unittest.TestCase):
 
         conf=common.cms_rmborder_conf()
         t=conf['outSideOrderAutoReceipt']
-        t=float(t)*3600
+        t=otherTool.str2float(t)*3600
         time.sleep(t)
         time.sleep(10)
         common.swipe_down_fresh()
@@ -516,7 +516,7 @@ class order(unittest.TestCase):
 
         conf=common.cms_rmborder_conf()
         outTime=conf['outSideOrderTimeout']
-        outTime=float(outTime)*3600
+        outTime=otherTool.str2float(outTime)*3600
         time.sleep(outTime)
         time.sleep(10)#waitiing for time task done
         common.swipe_down_fresh()
