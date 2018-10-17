@@ -3503,3 +3503,773 @@ n#
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1539743119497	geckodriver	INFO	geckodriver 0.19.1
+1539743119530	geckodriver	INFO	Listening on 127.0.0.1:2206
+1539743122575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.vJq3Rz6560Lc"
+1539743126406	Marionette	INFO	Listening on port 2217
+1539743126476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539743126511	Marionette	DEBUG	[6442450945] Frame script loaded
+1539743126514	Marionette	DEBUG	[6442450945] Frame script registered
+1539743171794	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539743172043	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539743174570	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539743174788	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539743176006	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539743176082	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539743176084	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539743177274	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539743177494	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539743179597	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+[Parent 7016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539743802053	1539743845980	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539743846219	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539743848761	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539743851095	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539743852281	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539743852374	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539743852375	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539743853473	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539743853652	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539743855775	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539743856542	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1539743948543	geckodriver	INFO	geckodriver 0.19.1
+1539743948551	geckodriver	INFO	Listening on 127.0.0.1:3171
+1539743951652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.z8xQRINTPFMP"
+1539743954494	Marionette	INFO	Listening on port 3183
+1539743955059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539743955097	Marionette	DEBUG	[6442450945] Frame script loaded
+1539743955098	Marionette	DEBUG	[6442450945] Frame script registered
+1539744015040	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539744015236	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539744017716	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539744017940	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539744019114	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744019195	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744019196	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744020044	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744020225	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744022344	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744023114	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1539744106273	geckodriver	INFO	geckodriver 0.19.1
+1539744106284	geckodriver	INFO	Listening on 127.0.0.1:3732
+1539744109394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.WFVn7QmJLprd"
+1539744111987	Marionette	INFO	Listening on port 3744
+1539744112733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539744112788	Marionette	DEBUG	[6442450945] Frame script loaded
+1539744112788	Marionette	DEBUG	[6442450945] Frame script registered
+1539744167940	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539744168171	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539744170752	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539744173163	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539744174376	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744174496	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744174497	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744175326	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744175552	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744177736	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744178509	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744205512	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744205595	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744205597	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744205740	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744205744	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744207845	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744208612	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744233445	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744233505	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744233506	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744233638	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744233642	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744235735	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744236503	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744248855	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744248939	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744248941	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744249080	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744249087	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744251190	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744251495	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744252901	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744254313	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744255050	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744255870	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744256727	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1539744367117	geckodriver	INFO	geckodriver 0.19.1
+1539744367132	geckodriver	INFO	Listening on 127.0.0.1:4731
+1539744370250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.t5G364tvEOgg"
+1539744373013	Marionette	INFO	Listening on port 4744
+1539744373487	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539744373541	Marionette	DEBUG	[6442450945] Frame script loaded
+1539744373542	Marionette	DEBUG	[6442450945] Frame script registered
+1539744428655	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539744428880	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539744431396	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539744433704	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539744434916	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744434988	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744434990	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744436596	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744436777	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744438894	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744439665	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744466623	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744466688	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744466689	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744466810	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744466813	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744468935	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744469720	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744494466	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744494525	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744494526	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744494660	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744494663	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744496777	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744497559	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744510006	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744510072	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744510076	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744510226	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744510229	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744512346	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744512632	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744514035	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744515526	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744516309	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744517145	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539744518309	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 4720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539747681081	Marionette	INFO	Stopped listening on port 4744
+[GPU 8624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744869880	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744870064	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744872210	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744872989	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1539744914620	geckodriver	INFO	geckodriver 0.19.1
+1539744914632	geckodriver	INFO	Listening on 127.0.0.1:6522
+1539744917762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.b8JUP9J39uhJ"
+1539744920448	Marionette	INFO	Listening on port 6538
+1539744920958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539744920999	Marionette	DEBUG	[6442450945] Frame script loaded
+1539744921000	Marionette	DEBUG	[6442450945] Frame script registered
+1539744985358	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539744985575	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539744988095	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539744988430	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539744989647	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744989722	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539744989724	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539744990795	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539744990970	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539744993088	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539744993860	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745021591	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745021673	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745021676	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745021798	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745021805	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745023906	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745024678	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745050421	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745050487	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745050488	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745050596	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745050602	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745052701	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745053477	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745066081	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745066156	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745066157	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745066291	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745066294	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745068403	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745068884	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745070289	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745071684	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745072430	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745073258	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745074288	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1539745313683	geckodriver	INFO	geckodriver 0.19.1
+1539745313692	geckodriver	INFO	Listening on 127.0.0.1:7719
+1539745316787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.9YVqfNPG0Xiw"
+1539745319808	Marionette	INFO	Listening on port 7735
+1539745320006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539745320057	Marionette	DEBUG	[6442450945] Frame script loaded
+1539745320058	Marionette	DEBUG	[6442450945] Frame script registered
+1539745383185	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539745383399	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539745385912	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539745386275	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539745387490	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745387559	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745387560	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745388442	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745388616	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745390721	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745391496	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745419039	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745419123	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745419126	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745419243	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745419247	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745421362	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745422129	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745446551	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745446608	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745446611	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745446730	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745446738	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745448844	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745449619	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745462088	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745462147	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745462151	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745462276	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745462283	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745464385	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745464824	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745466228	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745467611	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745468365	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745469177	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745470078	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0017,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0006,name=PLayerTransaction::Msg_ReleaseCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4F0020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x2A0016,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1539745578355	geckodriver	INFO	geckodriver 0.19.1
+1539745578364	geckodriver	INFO	Listening on 127.0.0.1:8689
+1539745581484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ZGeur7LjpnzD"
+1539745584253	Marionette	INFO	Listening on port 8701
+1539745584734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539745584780	Marionette	DEBUG	[6442450945] Frame script loaded
+1539745584781	Marionette	DEBUG	[6442450945] Frame script registered
+1539745651150	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539745651346	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539745654423	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539745654797	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539745655991	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745656058	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745656059	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745656931	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745657088	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745659201	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745659980	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745688138	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745688210	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745688213	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745688341	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745688345	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745690446	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745691224	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745717304	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745717361	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745717363	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745717489	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745717495	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745719583	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745720353	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745733321	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745733379	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745733381	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745733507	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745733511	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745735615	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745735918	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745737301	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745738705	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745739462	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745740256	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745741116	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745789978	geckodriver	INFO	geckodriver 0.19.1
+1539745789988	geckodriver	INFO	Listening on 127.0.0.1:9576
+1539745793082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.tXkJBIzMJi76"
+1539745795660	Marionette	INFO	Listening on port 9593
+1539745796355	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539745796398	Marionette	DEBUG	[6442450945] Frame script loaded
+1539745796399	Marionette	DEBUG	[6442450945] Frame script registered
+1539745864449	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539745864647	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539745867186	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539745867520	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539745869788	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745869857	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745869858	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745870762	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745870938	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745873081	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745873859	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745903085	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745903162	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745903163	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745903291	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745903294	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745905400	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745906162	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745931190	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745931263	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745931267	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745931407	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745931418	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745933529	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745934302	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745948179	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745948245	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745948248	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745948378	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745948385	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745950500	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745950954	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745952310	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745953755	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745954513	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745955405	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745956413	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745959703	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745959774	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539745959775	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539745959905	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539745959908	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539745962008	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539745962469	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745963828	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745965122	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539745965930	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 6172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9232, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539747680984	Marionette	INFO	Stopped listening on port 9593
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s/login#
+1539747616451	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747616528	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539747616531	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747617948	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539747618082	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539747620203	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539747620981	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539747650079	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747650157	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539747650161	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747650283	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539747650289	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539747652404	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+[Child 8160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539747681038	Marionette	INFO	Stopped listening on port 13411
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539747682074	geckodriver	INFO	geckodriver 0.19.1
+1539747682083	geckodriver	INFO	Listening on 127.0.0.1:13996
+1539747685166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.1kiAGpUV95WO"
+1539747687885	Marionette	INFO	Listening on port 14014
+1539747688675	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539747688712	Marionette	DEBUG	[6442450945] Frame script loaded
+1539747688713	Marionette	DEBUG	[6442450945] Frame script registered
+1539747723268	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539747723410	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539747725931	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539747728265	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539747730525	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747730595	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539747730596	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747731983	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539747732140	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539747734307	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539747735086	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539747764110	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747764193	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539747764194	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539747764319	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539747764326	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539747766448	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539747767223	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 11212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539748109688	Marionette	INFO	Stopped listening on port 14014
+[GPU 10532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539748111700	geckodriver	INFO	geckodriver 0.19.1
+1539748111711	geckodriver	INFO	Listening on 127.0.0.1:15302
+1539748114815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.8zBTYq5Oa0am"
+1539748117776	Marionette	INFO	Listening on port 15314
+1539748118221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539748118266	Marionette	DEBUG	[6442450945] Frame script loaded
+1539748118266	Marionette	DEBUG	[6442450945] Frame script registered
+1539748161935	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539748162196	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539748164934	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/login#
+1539748165288	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/login#
+1539748167571	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748167652	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539748167653	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748168617	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539748168806	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539748170922	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539748171697	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748200149	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748200233	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539748200235	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748200350	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539748200357	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539748202466	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539748203236	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748238066	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748238129	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539748238130	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748238260	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539748238264	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539748240365	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539748241153	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748254943	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748255010	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539748255011	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748255133	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539748255141	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539748257236	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539748257747	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748259288	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748260700	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748261477	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748262278	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748263227	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748266677	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748266741	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://qa.365bencao.cn/warehouse/sys/login#
+1539748266743	Marionette	DEBUG	[6442450945] Received DOM event unload for http://qa.365bencao.cn/warehouse/sys/login#
+1539748266849	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://qa.365bencao.cn/warehouse/sys/index
+1539748266856	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://qa.365bencao.cn/warehouse/sys/index
+1539748268965	Marionette	DEBUG	[6442450945] Received DOM event popstate for http://qa.365bencao.cn/warehouse/sys/index#
+1539748269309	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748270698	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748272260	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539748272997	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected

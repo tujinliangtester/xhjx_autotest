@@ -15,15 +15,10 @@ if __name__=='__main__':
     # suite.addTest(cmsGoods('testCheckGoods'))
     suite.addTest(order('testOrderGoodsdetail'))
     runner = unittest.TextTestRunner()
-    try:
-        runner.run(suite)
-    except Exception:
-        print(Exception)
+    runner.run(suite)
 
-    s = time.strftime('%m-%d-%H:%M', time.localtime())
-    appium_init.driver.save_screenshot(s + 'app.png')
-    selenium_init.driver.save_screenshot(s + 'sel.png')
-    print('save_screenshot')
+
+
 
 
 

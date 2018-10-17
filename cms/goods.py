@@ -24,6 +24,9 @@ class cmsGoods(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
+        s = time.strftime('%m-%d-%H:%M', time.localtime())
+        selenium_init.driver.get_screenshot_as_png(s + 'sel.png')
+        print('save_screenshot')
         self.driver.quit()
     def testAddGoods(self):
         el=self.driver.find_element_by_xpath('//*[@id="navbar_top"]/li[2]/a')

@@ -1,6 +1,6 @@
 from selenium import  webdriver
 import time
-driver=webdriver.Chrome()
+driver=webdriver.Firefox()
 driver.implicitly_wait(30)
 driver.maximize_window()
 # driver.minimize_window()
@@ -18,11 +18,14 @@ def cms():
     el.click()
 
 def wms():
+    time.sleep(0.5)
     driver.get('http://qa.365bencao.cn/warehouse/sys/login#')
+    time.sleep(0.5)
     el = driver.find_element_by_name('userName')
     el.clear()
     el.send_keys('tjl041602')
 
+    time.sleep(0.5)
     el = driver.find_element_by_name('password')
     el.clear()
     el.send_keys('tjl041602')

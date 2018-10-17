@@ -60,12 +60,21 @@ def home_serch_goods(goods):
 
 
 def into_goods_detail_by_homeserch(goods):
-    # TODO
-    time.sleep(1)
-    dx=427/720
-    dy=218/1280
-    click_native(dx,dy)
+    # TODO 4.4
+    # time.sleep(1)
+    # dx=427/720
+    # dy=218/1280
+    # click_native(dx,dy)
+    time.sleep(0.5)
+    el=driver.find_element_by_class_name('serBox ')
+    el.click()
 
+    time.sleep(0.5)
+    el=driver.find_element_by_id('ipt-search')
+    el.clear()
+    el.send_keys(goods)
+
+    time.sleep(0.5)
     el = driver.find_element_by_id('btn-search')
     el.click()
 
@@ -163,4 +172,31 @@ def wms_rmb_outschool_delivery(orderNo):
     time.sleep(0.5)
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
     el.click()
+    time.sleep(0.5)
+
+def wms_rmb_outschool_confirmReceipt(orderNo):
+    selenium_init.wms()
+    el = cms_driver.find_element_by_xpath('//*[@id="navbar_top"]/li[4]/a')
+    el.click()
+
+    el = cms_driver.find_element_by_xpath('//*[@id="sidebar_menu"]/li[3]/a/span[1]')
+    el.click()
+
+    time.sleep(1)
+    el = cms_driver.find_element_by_xpath('//*[@id="sidebar_menu"]/li[3]/ul/li[2]/a/span')
+    el.click()
+
+    time.sleep(0.5)
+    el = cms_driver.find_element_by_name('combinOrderNo')
+    el.clear()
+    el.send_keys(orderNo)
+    el.send_keys(Keys.ENTER)
+
+    el=cms_driver.find_element_by_xpath('//button[@onclick="confirmReceipt(this)"]')
+    el.click()
+
+    time.sleep(0.5)
+    el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
+    el.click()
+    time.sleep(0.5)
 

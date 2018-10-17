@@ -1,5 +1,5 @@
 
-from initial import appium_init
+from initial import appium_init,selenium_init
 import unittest,time
 from tools import common,vc_tools
 driver = appium_init.driver
@@ -10,6 +10,13 @@ class order(unittest.TestCase):
     def setUp(self):
         print('order setup')
     def tearDown(self):
+        s = time.strftime('%m-%d-%H:%M', time.localtime())
+        s=s + 'app.png'
+        appium_init.driver.get_screenshot_as_png(s)
+        s = time.strftime('%m-%d-%H:%M', time.localtime())
+        s=s + 'sel.png'
+        selenium_init.driver.get_screenshot_as_png(s)
+        print('save_screenshot')
         print('order tearDown')
 
     def testOrderGoodsdetail(self):
@@ -103,12 +110,15 @@ class order(unittest.TestCase):
         common.click_native(dx=dx, dy=dy)
 
         js = "return document.querySelector('.order-info p').innerText"
-        s = driver.execute_script(js)
-        print(s)
-        s=s[5:]
-        print(s)
+        orderno = driver.execute_script(js)
+        print(orderno)
+        orderno=orderno[5:]
+        print(orderno)
 
-        common.wms_rmb_outschool_delivery(s)
+        common.wms_rmb_outschool_delivery(orderno)
+        common.wms_rmb_outschool_confirmReceipt(orderno)
+
+
 
 goodsName=''
 def commit_order_goodsdetail(num):
