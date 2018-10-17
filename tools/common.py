@@ -2,10 +2,10 @@ from initial import appium_init
 from initial import selenium_init
 from selenium.webdriver.common.keys import Keys
 from appium.webdriver.common.touch_action import TouchAction
-
+import time
 driver = appium_init.driver
 cms_driver=selenium_init.driver
-import time
+conf={}
 
 def click_native(dx,dy):
     time.sleep(5)
@@ -29,6 +29,12 @@ def find_element_by_js_querySelector(js,i):
     js='return document.querySelectorAll("'+js+'")'
     print(js)
     return driver.execute_script(js)[i]
+def get_value_by_js_documentGetElementsByName(ElementsByName,i):
+    #参数为css选择器字符串
+    time.sleep(2)
+    js='return document.getElementsByName("'+ElementsByName+'")['+str(i)+'].value'
+    print(js)
+    return driver.execute_script(js)
 def chang_wd(wdnm):
     driver.get('http://qaservice.365bencao.cn/lead?valid=true')
 
@@ -224,10 +230,7 @@ def cms_rmborder_conf():
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="RMB用户订单配置"]')
     el.click()
 
-    el=cms_driver.find_element_by_name('outSideOrderTimeout')
-    res['outSideOrderTimeout']=el.text
+    res['outSideOrderTimeout']=get_value_by_js_documentGetElementsByName('outSideOrderTimeout',0)
 
-    el=cms_driver.find_element_by_name('outSideOrderAutoReceipt')
-    res['outSideOrderAutoReceipt']=el.text
-
+    res['outSideOrderAutoReceipt']=get_value_by_js_documentGetElementsByName('outSideOrderAutoReceipt',0)
     return res

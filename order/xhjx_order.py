@@ -361,6 +361,7 @@ class order(unittest.TestCase):
         assert el.text == '商家已发货'
 
         conf=common.cms_rmborder_conf()
+        print(conf)
         t=conf['outSideOrderAutoReceipt']
         t=otherTool.str2float(t)*3600
         time.sleep(t)
@@ -515,6 +516,7 @@ class order(unittest.TestCase):
         assert el.text=='等待买家付款'
 
         conf=common.cms_rmborder_conf()
+        print(conf)
         outTime=conf['outSideOrderTimeout']
         outTime=otherTool.str2float(outTime)*3600
         time.sleep(outTime)
