@@ -4,7 +4,7 @@ import xlrd
 import time
 from appium.webdriver.common.touch_action import TouchAction
 
-
+qaurl='http://qaservice.xuehuistore.cn'
 wb=xlrd.open_workbook('..\\testdata\\init.xlsx')
 sh=wb.sheet_by_name('appium')
 desired_caps = {}

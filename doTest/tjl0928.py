@@ -13,7 +13,10 @@ if __name__=='__main__':
     suite = unittest.TestSuite()
     # suite.addTest(cmsGoods('testAddGoods'))
     # suite.addTest(cmsGoods('testCheckGoods'))
-    suite.addTest(order('testOrderGoodsdetail'))
+    suite.addTest(order('testOrderGoodsdetail2Pay'))
+    suite.addTest(order('testOrderGoodsdetail2PayCansel'))
+    suite.addTest(order('testOrderGoodsdetail2PayAutoReceipt'))
+    suite.addTest(order('testOrderGoodsdetail2TimeOutCansel'))
     runner = unittest.TextTestRunner()
     runner.run(suite)
 

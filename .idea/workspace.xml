@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b79b78c-9e02-4aa6-bd99-e0b6940f29a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdata/init.xlsx" afterPath="$PROJECT_DIR$/testdata/init.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/appiumtest.iml" afterPath="$PROJECT_DIR$/.idea/appiumtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/goods.py" afterPath="$PROJECT_DIR$/cms/goods.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doTest/geckodriver.log" afterPath="$PROJECT_DIR$/doTest/geckodriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doTest/tjl0928.py" afterPath="$PROJECT_DIR$/doTest/tjl0928.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial/selenium_init.py" afterPath="$PROJECT_DIR$/initial/selenium_init.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial/appium_init.py" afterPath="$PROJECT_DIR$/initial/appium_init.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order/xhjx_order.py" afterPath="$PROJECT_DIR$/order/xhjx_order.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/common.py" afterPath="$PROJECT_DIR$/tools/common.py" />
     </list>
@@ -22,14 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tjl0928.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doTest/tjl0928.py">
+      <file leaf-file-name="xhjx_order.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/xhjx_order.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="186">
+              <caret line="457" column="42" lean-forward="false" selection-start-line="457" selection-start-column="8" selection-end-line="457" selection-end-column="42" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#1#46#0" expanded="true" />
+                <element signature="e#3772#7566#0" expanded="false" />
+                <element signature="e#11569#14070#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="1034" column="8" lean-forward="false" selection-start-line="1034" selection-start-column="8" selection-end-line="1034" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,64 +45,39 @@
       <file leaf-file-name="appium_init.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/initial/appium_init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="123">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python/Lib/site-packages/appium/webdriver/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python/Lib/site-packages/appium/webdriver/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="177" column="20" lean-forward="false" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
+            <state relative-caret-position="445">
+              <caret line="230" column="32" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="32" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#1367#1570#0" expanded="false" />
+                <element signature="e#1620#2108#0" expanded="false" />
+                <element signature="e#2547#3053#0" expanded="false" />
+                <element signature="e#3090#3560#0" expanded="false" />
+                <element signature="e#4666#5410#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/goods.py">
+      <file leaf-file-name="tjl0928.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doTest/tjl0928.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="207">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xhjx_order.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/xhjx_order.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#1#46#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +86,7 @@
       <file leaf-file-name="selenium_init.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/initial/selenium_init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="169">
               <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding />
             </state>
@@ -181,12 +164,12 @@
         <option value="$PROJECT_DIR$/tools/vc_tools.py" />
         <option value="$PROJECT_DIR$/doTest/tmp1012.py" />
         <option value="$PROJECT_DIR$/doTest/tmp1016.py" />
+        <option value="$PROJECT_DIR$/initial/selenium_init.py" />
+        <option value="$PROJECT_DIR$/cms/goods.py" />
         <option value="$PROJECT_DIR$/initial/appium_init.py" />
         <option value="$PROJECT_DIR$/tools/common.py" />
-        <option value="$PROJECT_DIR$/initial/selenium_init.py" />
-        <option value="$PROJECT_DIR$/doTest/tjl0928.py" />
-        <option value="$PROJECT_DIR$/cms/goods.py" />
         <option value="$PROJECT_DIR$/order/xhjx_order.py" />
+        <option value="$PROJECT_DIR$/doTest/tjl0928.py" />
       </list>
     </option>
   </component>
@@ -619,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539696368480</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pycharm">
+      <created>1539748362015</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539748362016</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -667,13 +657,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3368532" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35200846" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -850,7 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/selenium录制脚本/AppDynamicsJob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -898,18 +887,20 @@
       </provider>
     </entry>
     <entry file="file://D:/Users/Administrator/PycharmProjects/appium/Lib/site-packages/xlrd/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/initial/selenium_init.py">
+    <entry file="file://$PROJECT_DIR$/cms/goods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="299">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initial/appium_init.py">
+    <entry file="file://D:/Python/Lib/site-packages/appium/webdriver/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="407">
+          <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -922,50 +913,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Lib/site-packages/appium/webdriver/webdriver.py">
+    <entry file="file://D:/Python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="182" column="0" lean-forward="true" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="1034" column="8" lean-forward="false" selection-start-line="1034" selection-start-column="8" selection-end-line="1034" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doTest/tjl0928.py">
+    <entry file="file://$PROJECT_DIR$/initial/selenium_init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="230" column="32" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="32" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1367#1570#0" expanded="false" />
+            <element signature="e#1620#2108#0" expanded="false" />
+            <element signature="e#2547#3053#0" expanded="false" />
+            <element signature="e#3090#3560#0" expanded="false" />
+            <element signature="e#4666#5410#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initial/appium_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/xhjx_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="186">
+          <caret line="457" column="42" lean-forward="false" selection-start-line="457" selection-start-column="8" selection-end-line="457" selection-end-column="42" />
           <folding>
             <element signature="e#1#46#0" expanded="true" />
+            <element signature="e#3772#7566#0" expanded="false" />
+            <element signature="e#11569#14070#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/goods.py">
+    <entry file="file://$PROJECT_DIR$/doTest/tjl0928.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="207">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="177" column="20" lean-forward="false" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

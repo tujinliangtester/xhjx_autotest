@@ -25,7 +25,7 @@ def click_native(dx,dy):
     time.sleep(3)
 def find_element_by_js_querySelector(js,i):
     #参数为css选择器字符串
-    time.sleep(0.5)
+    time.sleep(2)
     js='return document.querySelectorAll("'+js+'")'
     print(js)
     return driver.execute_script(js)[i]
@@ -199,4 +199,35 @@ def wms_rmb_outschool_confirmReceipt(orderNo):
     el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="确定"]')
     el.click()
     time.sleep(0.5)
+def swipe_down_fresh():
+    time.sleep(0.5)
+    driver.switch_to.context('NATIVE_APP')
 
+    startx=driver.get_window_size()['width'] * 0.25
+    starty = driver.get_window_size()['height'] * 0.25
+    driver.swipe(start_x=startx,start_y=starty,end_x=startx*2,end_y=starty*2)
+
+    driver.switch_to.context('WEBVIEW_com.tencent.mm:tools')
+    print('switch to web')
+    print(driver.current_context)
+    time.sleep(0.5)
+def cms_rmborder_conf():
+    time.sleep(1)
+    res={}
+    selenium_init.cms()
+    el=cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="订单与配送"]')
+    el.click()
+
+    el=cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="用户订单设置"]')
+    el.click()
+
+    el = cms_driver.find_element_by_xpath('.//*[normalize-space(text()) and normalize-space(.)="RMB用户订单配置"]')
+    el.click()
+
+    el=cms_driver.find_element_by_name('outSideOrderTimeout')
+    res['outSideOrderTimeout']=el.text
+
+    el=cms_driver.find_element_by_name('outSideOrderAutoReceipt')
+    res['outSideOrderAutoReceipt']=el.text
+
+    return res
